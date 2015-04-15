@@ -6,6 +6,7 @@ being profiled.
 available = {
     'apache_httpd': 'newrelic_plugin_agent.plugins.apache_httpd.ApacheHTTPD',
     'couchdb': 'newrelic_plugin_agent.plugins.couchdb.CouchDB',
+    'couchbase': 'newrelic_plugin_agent.plugins.couchbase.Couchbase',
     'edgecast': 'newrelic_plugin_agent.plugins.edgecast.Edgecast',
     'elasticsearch':
         'newrelic_plugin_agent.plugins.elasticsearch.ElasticSearch',

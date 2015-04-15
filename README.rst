@@ -7,6 +7,7 @@ NewRelic platform. Currently supported backend systems are:
 - Alternative PHP Cache
 - Apache HTTP Server
 - CouchDB
+- Couchbase
 - Elasticsearch
 - HAProxy
 - Memcached
@@ -297,6 +298,12 @@ Configuration Example
             #verify_ssl_cert: true
             #username: foo
             #password: bar
+
+      couchbase:
+        name: localhost
+        host: localhost
+        port: 8091
+        path: pools/default/buckets
 
       elasticsearch:
         name: clustername
