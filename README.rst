@@ -303,7 +303,6 @@ Configuration Example
         name: localhost
         host: localhost
         port: 8091
-        path: pools/default/buckets
 
       elasticsearch:
         name: clustername
